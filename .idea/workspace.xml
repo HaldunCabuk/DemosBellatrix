@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="TestFramework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runners/RunnerChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runners/RunnerSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefs/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CucumberHooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stepdefs/StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/StepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FeatureCart.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FeatureCart.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,13 +41,16 @@
     </option>
   </component>
   <component name="ProjectId" id="2WnKNv0jyDwoA3NVqZ0wqFuu62T" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -58,6 +84,33 @@
       <option name="presentableId" value="Default" />
       <updated>1697362869452</updated>
     </task>
+    <task id="LOCAL-00001" summary="firstday">
+      <created>1697362988726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697362988726</updated>
+    </task>
+    <task id="LOCAL-00002" summary="firstday">
+      <created>1697363092045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697363092045</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TestFramework">
+      <created>1697365612006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697365612006</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firstday" />
+    <MESSAGE value="TestFramework" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestFramework" />
   </component>
 </project>
