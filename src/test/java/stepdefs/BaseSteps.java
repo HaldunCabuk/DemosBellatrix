@@ -29,8 +29,9 @@ public class BaseSteps {
 
     @FindBy(xpath = "//ul[@class='products columns-4']//h2")
     public List<WebElement> productNames;
-    @FindBy(xpath = "//ul[@class='products columns-4']//li")
-    public List<WebElement> products;
+
+    /*  @FindBy(xpath = "//ul[@class='products columns-4']//li")
+    public List<WebElement> products;*/
 
     By lViewCartButton = By.xpath("//a[@class='added_to_cart wc-forward']");
     By lFalcon9 = By.xpath("//a[text()='Falcon 9']");
@@ -70,11 +71,11 @@ public class BaseSteps {
     }
 
 
-    public void productNums(By locator) {
+   /* public void productNums(By locator) {
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         String nums = element.getSize().toString();
 
-    }
+    }*/
 
     public String isVisible(By locator){
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));

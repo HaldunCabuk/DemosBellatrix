@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="TestFramework">
+      <change afterPath="$PROJECT_DIR$/allure-results/30e8f7da-6f42-4f90-9c2b-d964fa0d8019-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/3e74ae69-4a37-457a-940c-4b3cf4cb6dca-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8a1bad2a-ed8c-4b8d-ae89-4055af63563e-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9aecb6cc-f259-4edb-a9dc-2d680282b540-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/aac9cfa2-9610-4e30-b69f-e4b2e238fc5c-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b47af4b1-2675-4fbb-aaef-f2213d5953d5-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CartSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +61,7 @@
       <recent name="stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerChart">
+  <component name="RunManager" selected="JUnit.RunnerSearch">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="DemosBellatrix" />
@@ -136,8 +142,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunnerChart" />
         <item itemvalue="JUnit.RunnerSearch" />
+        <item itemvalue="JUnit.RunnerChart" />
         <item itemvalue="JUnit.Ornek" />
         <item itemvalue="Cucumber Java.Scenario: scenario outline" />
         <item itemvalue="Application.Main" />
@@ -202,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697401848323</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="TestFramework">
+      <created>1697403615379</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697403615379</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
