@@ -1,1 +1,0 @@
-{"uuid":"2873a9d4-e345-4a48-b69c-88a36c862034","name":"Scenario: Add to Cart","children":["ff552d6c-671b-4d09-9d4d-bcfe20132c49"],"befores":[],"afters":[{"name":"stepdefs.CucumberHooks.afterScenario()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1697401500932,"stop":1697401500933}],"start":1697401485221,"stop":1697401500938}

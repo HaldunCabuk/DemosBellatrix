@@ -1,1 +1,0 @@
-{"uuid":"8a3bd0dd-9b7e-4188-ab1a-31ef3fbb1130","name":"Scenario Outline: Search","children":["43702050-07c5-4b9f-9220-4f82d04bc4a8"],"befores":[],"afters":[{"name":"stepdefs.CucumberHooks.afterScenario()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1697382725772,"stop":1697382725937}],"start":1697382722582,"stop":1697382725938}
