@@ -61,6 +61,7 @@ public class BaseSteps {
     }
 
     public WebElement getInput(String text) {
+
         String attr = String.format(ATTRIBUTE, text);
 
         String xpath = attr;
@@ -75,5 +76,9 @@ public class BaseSteps {
 
     }
 
-
+    public String isVisible(By locator){
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        String name = element.getText().toLowerCase();
+        return name;
+    }
 }

@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="TestFramework">
-      <change afterPath="$PROJECT_DIR$/allure-results/2873a9d4-e345-4a48-b69c-88a36c862034-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/2fd05779-2d16-4a8d-8c43-328c538a59c5-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/88134478-bce5-4950-9092-1f5c76668300-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9d8708bd-6c80-4935-91b1-4c0451015696-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b15800d2-408b-4c4c-b04f-6dc00390e4fd-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ff552d6c-671b-4d09-9d4d-bcfe20132c49-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CartSteps.java" afterDir="false" />
@@ -201,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697389306680</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="TestFramework">
+      <created>1697401848323</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697401848323</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

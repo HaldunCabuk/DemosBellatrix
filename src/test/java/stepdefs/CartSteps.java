@@ -31,5 +31,8 @@ public class CartSteps extends BaseSteps{
     }
 
     @Then("the product {string} should be in Cart")
+    public void theProductShouldBeInCart(String text) {
 
+        Assert.assertEquals(isVisible(lFalcon9),text);
+    }
 }
