@@ -7,6 +7,8 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
 
 import java.util.List;
 
@@ -25,9 +27,9 @@ public class CartSteps extends BaseSteps{
 
     @And("user click to Cart")
     public void userClickToCart() {
+        click(lViewCartButton);
     }
 
     @Then("the product {string} should be in Cart")
-    public void theProductShouldBeInCart(String arg0) {
-    }
+
 }

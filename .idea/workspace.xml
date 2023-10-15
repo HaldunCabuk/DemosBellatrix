@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="TestFramework">
-      <change afterPath="$PROJECT_DIR$/allure-results/1487d958-37fd-4d8e-b298-ca3800f67d36-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3ce05009-893b-406a-a344-af6c2d38f1b0-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/4e9c132b-a225-493f-80d5-bc847883e646-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/56f533a1-024f-424a-9fad-3a037a4b2a62-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/72302911-7e03-40da-8e01-b6b48d01f971-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8e9dced7-4995-48b6-96a8-62c7fc7074c3-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9ae9e747-0acc-4e11-b8ad-265e709e9a09-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9b64fd9d-3c87-4994-84f0-bce04cfebbd6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a43a866b-dec6-4f6d-9c28-9a0aac377d14-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/aba6b292-ee28-435c-80ae-04357549e9af-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ae4f935e-902b-44d0-86db-48747a47593c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c1d83323-07de-40d6-b184-c7dbb54cf0d5-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/cdd65e8b-b478-42cd-a754-82834027e866-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d7d70a22-80d0-4c53-8e46-67edb11532b6-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/dbbc2970-dbac-47ac-8700-4d05db8e1a2c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ef2fed29-92a5-4606-a192-80f541bde470-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ef317a18-cb39-48b1-aae9-63ca5768ab9b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/f96400a3-0e5b-46bb-a7bb-9abcece8c56f-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2873a9d4-e345-4a48-b69c-88a36c862034-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/2fd05779-2d16-4a8d-8c43-328c538a59c5-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/88134478-bce5-4950-9092-1f5c76668300-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9d8708bd-6c80-4935-91b1-4c0451015696-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/b15800d2-408b-4c4c-b04f-6dc00390e4fd-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/ff552d6c-671b-4d09-9d4d-bcfe20132c49-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CartSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CucumberHooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,14 +48,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="stepdefs" />
@@ -207,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697385947351</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="TestFramework">
+      <created>1697389306680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697389306680</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

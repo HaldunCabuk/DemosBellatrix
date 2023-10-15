@@ -22,14 +22,18 @@ public class BaseSteps {
             " easily customizable and extendable " +
             ".NET test automation framework that increases tests’ reliability.";
     protected static final String ATTRIBUTE = "//*[@*[.='%s']]";
+    protected static final String NAME = "//a[text()='%s']";
 
     @FindBy(xpath = "//ul[@class='products columns-4' and .//*[text()='Add to cart']]//a[.='Add to cart']")
     public List<WebElement> addToCarts;
 
     @FindBy(xpath = "//ul[@class='products columns-4']//h2")
     public List<WebElement> productNames;
-@FindBy(xpath = "//ul[@class='products columns-4']//li")
+    @FindBy(xpath = "//ul[@class='products columns-4']//li")
     public List<WebElement> products;
+
+    By lViewCartButton = By.xpath("//a[@class='added_to_cart wc-forward']");
+    By lFalcon9 = By.xpath("//a[text()='Falcon 9']");
 
     protected BaseSteps() {
         driver = Driver.getDriver();
