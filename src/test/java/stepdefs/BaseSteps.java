@@ -24,10 +24,12 @@ public class BaseSteps {
     protected static final String ATTRIBUTE = "//*[@*[.='%s']]";
 
     @FindBy(xpath = "//ul[@class='products columns-4' and .//*[text()='Add to cart']]//a[.='Add to cart']")
-    public List<WebElement> addToCartNums;
+    public List<WebElement> addToCarts;
 
     @FindBy(xpath = "//ul[@class='products columns-4']//h2")
     public List<WebElement> productNames;
+@FindBy(xpath = "//ul[@class='products columns-4']//li")
+    public List<WebElement> products;
 
     protected BaseSteps() {
         driver = Driver.getDriver();
