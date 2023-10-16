@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="TestFramework">
-      <change afterPath="$PROJECT_DIR$/allure-results/30e8f7da-6f42-4f90-9c2b-d964fa0d8019-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/3e74ae69-4a37-457a-940c-4b3cf4cb6dca-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/8a1bad2a-ed8c-4b8d-ae89-4055af63563e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9aecb6cc-f259-4edb-a9dc-2d680282b540-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/aac9cfa2-9610-4e30-b69f-e4b2e238fc5c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/b47af4b1-2675-4fbb-aaef-f2213d5953d5-container.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/CucumberHooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/CucumberHooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +48,10 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -110,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerChart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunnerCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +117,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.RunnerChart" />
+      <option name="MAIN_CLASS_NAME" value="runners.RunnerCart" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,7 +141,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunnerSearch" />
-        <item itemvalue="JUnit.RunnerChart" />
+        <item itemvalue="JUnit.RunnerCart" />
         <item itemvalue="JUnit.Ornek" />
         <item itemvalue="Cucumber Java.Scenario: scenario outline" />
         <item itemvalue="Application.Main" />
@@ -215,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697403615379</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="TestFramework">
+      <created>1697404829244</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697404829244</updated>
+    </task>
+    <task id="LOCAL-00010" summary="TestFramework">
+      <created>1697404904801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697404904801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
