@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="TestFramework">
-      <change afterPath="$PROJECT_DIR$/allure-results/398f2f5a-7bd9-479e-82a4-5a5436276835-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/723d2410-4d27-422a-9dc0-46c80aa4ab55-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/81098985-6866-444f-85e7-00248beec2b7-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/a6e22955-8b37-4b77-906a-a8a0593f8b16-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ae8b3590-87cb-496d-8dbe-5344c6b64747-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/d1fc4624-3411-45d1-aa43-25e4e0576ef4-result.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/basics_Assertion/_01Basics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/basics_Assertion/_02Assertions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Haldun35/IdeaProjects/DemosBellatrix/src/main/java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix\src\main\java" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="stepdefs" />
     </key>
@@ -244,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697492698223</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TestFramework">
+      <created>1697493704061</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1697493704061</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
