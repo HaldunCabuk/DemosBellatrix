@@ -11,8 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import static io.restassured.RestAssured.get;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.hasKey;
+import static org.hamcrest.Matchers.*;
 
 public class ExamOnAdress {
 
@@ -90,8 +89,16 @@ public class ExamOnAdress {
                 .statusCode(200)
                 .body("$",hasKey("post code"))
                 .body("country", equalTo("Turkey"))
-               // .body("country abbreviation",equalTo("TR"))
-                .body("places[0].place name",equalTo("Seyhan Mah."))
+                //.body("country abbreviation",equalTo("TR"))
+                .body("places[0].state",equalTo("İzmir"))
+                //.body("latitude",equalTo("40.35"))
+                .body("places.state",hasItems("İzmir"))
+                //.body("places.state abbreviation",hasItems("35"))
+                .body(containsString("post code"))
+                .body(containsString("37.55"))
+
+
+
 
 
 
