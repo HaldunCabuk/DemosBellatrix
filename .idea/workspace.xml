@@ -61,7 +61,7 @@
       <recent name="stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamOnAdress.ExamOnAdressForAssert">
+  <component name="RunManager" selected="JUnit.ExamOnAdress.autoCheckAssertdeneme">
     <configuration name="ExamOnAdress.ExamOnAdressForAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
@@ -73,6 +73,54 @@
       <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
       <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
       <option name="METHOD_NAME" value="ExamOnAdressForAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamOnAdress._autoCheckAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="_autoCheckAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamOnAdress.autoCheckAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="autoCheckAssert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamOnAdress.autoCheckAssertdeneme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="autoCheckAssertdeneme" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,61 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamOnAdress.hippo_pathParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
-      <option name="METHOD_NAME" value="hippo_pathParams" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_01Basics.test07_getSingleUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.basics_Assertion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.basics_Assertion" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.basics_Assertion._01Basics" />
-      <option name="METHOD_NAME" value="test07_getSingleUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_02Assertions.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.basics_Assertion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.basics_Assertion" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.basics_Assertion._02Assertions" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExamOnAdress.ExamOnAdressForAssert" />
-        <item itemvalue="JUnit._02Assertions.test02" />
+        <item itemvalue="JUnit.ExamOnAdress.autoCheckAssertdeneme" />
+        <item itemvalue="JUnit.ExamOnAdress._autoCheckAssert" />
+        <item itemvalue="JUnit.ExamOnAdress.autoCheckAssert" />
         <item itemvalue="JUnit.ExamOnAdress.forLoop_pathParams" />
-        <item itemvalue="JUnit._01Basics.test07_getSingleUser" />
-        <item itemvalue="JUnit.ExamOnAdress.hippo_pathParams" />
+        <item itemvalue="JUnit.ExamOnAdress.ExamOnAdressForAssert" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697892378912</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="21.10.2023 ExamOnHipopotam_usRestAssured">
+      <created>1697893534484</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1697893534484</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
