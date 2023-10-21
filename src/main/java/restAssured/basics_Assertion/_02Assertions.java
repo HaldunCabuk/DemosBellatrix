@@ -38,7 +38,7 @@ public class _02Assertions {
                 .log().body()
                 .statusCode(200)
                 .body("page",equalTo(2))
-                .body("data[1].last_name",equalTo("Ferguson"))
+                .body("data[0].id",equalTo(7))
                 .body(containsString("rachel"))
                 .body("data.first_name",hasItems("Michael","Lindsay"))
                 .body("",hasKey("support"))
