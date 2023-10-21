@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="TestFramework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/basics_Assertion/_01Basics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/basics_Assertion/_02Assertions.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="20.10.2023 RestAssured">
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/hippopotam_us/ExamOnAdress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,92 +61,94 @@
       <recent name="stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerSearch">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="JUnit.ExamOnAdress.test1">
+    <configuration name="ExamOnAdress.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: scenario outline" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Ornek.feature" />
-      <option name="GLUE" value="stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="_01Basics.test02_getandLog" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <option name="NAME_FILTER" value="^scenario outline$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^scenario outline$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: scenario outline" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="restAssured.basics_Assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="restAssured.basics_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.basics_Assertion._01Basics" />
+      <option name="METHOD_NAME" value="test02_getandLog" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ornek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_01Basics.test03_statusCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="restAssured.basics_Assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Ornek" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="restAssured.basics_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.basics_Assertion._01Basics" />
+      <option name="METHOD_NAME" value="test03_statusCode" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_01Basics.test04_responseTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="restAssured.basics_Assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.RunnerCart" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="restAssured.basics_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.basics_Assertion._01Basics" />
+      <option name="METHOD_NAME" value="test04_responseTime" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_01Basics.test07_getSingleUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="restAssured.basics_Assertion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.RunnerSearch" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="restAssured.basics_Assertion" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.basics_Assertion._01Basics" />
+      <option name="METHOD_NAME" value="test07_getSingleUser" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunnerSearch" />
-        <item itemvalue="JUnit.RunnerCart" />
-        <item itemvalue="JUnit.Ornek" />
-        <item itemvalue="Cucumber Java.Scenario: scenario outline" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ExamOnAdress.test1" />
+        <item itemvalue="JUnit._01Basics.test07_getSingleUser" />
+        <item itemvalue="JUnit._01Basics.test04_responseTime" />
+        <item itemvalue="JUnit._01Basics.test03_statusCode" />
+        <item itemvalue="JUnit._01Basics.test02_getandLog" />
       </list>
     </recent_temporary>
   </component>
@@ -253,13 +252,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697493704061</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="20.10.2023 RestAssured">
+      <created>1697880569210</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697880569210</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="firstday" />
     <MESSAGE value="TestFramework" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestFramework" />
+    <MESSAGE value="20.10.2023 RestAssured" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.10.2023 RestAssured" />
   </component>
 </project>
