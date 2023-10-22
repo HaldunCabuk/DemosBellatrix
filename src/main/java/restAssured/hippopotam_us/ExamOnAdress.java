@@ -92,14 +92,12 @@ public class ExamOnAdress {
                 .statusCode(200)
                 .body("$", hasKey("post code"))
                 .body("country", equalTo("Turkey"))
-                //.body("country abbreviation",equalTo("TR"))
                 .body("places[0].state", equalTo("İzmir"))
-                //.body("latitude",equalTo("40.35"))
                 .body("places.state", hasItems("İzmir"))
-                //.body("places.state abbreviation",hasItems("35"))
                 .body(containsString("post code"))
                 .body(containsString("37.55"))
-
+                .body("places[0].latitude", equalTo("40.35"))
+                .body("country", equalTo("Turkey"))
 
         ;
     }
@@ -110,6 +108,7 @@ public class ExamOnAdress {
 
         int num = 35380;
         int lNum = 35399;
+
         String data = "places";
 
         for (int i = num; i < lNum; i++) {
@@ -129,22 +128,22 @@ public class ExamOnAdress {
 
         if (str.contains(data)) {
 
-                given()
-                        .pathParam("pc", i)
-                        .when()
-                        .get(url)
-                        .prettyPrint();
+            given()
+                    .pathParam("pc", i)
+                    .when()
+                    .get(url)
+                    .prettyPrint();
 
         }
     }
 
 
     @Test
-    public void autoCheckAssert2() {
+    public void AdressAssert() {
 
         int num = 35380;
         int lNum = 35399;
-        String data = "Efeler Mah.";
+        String data = "places";
 
         for (int i = num; i < lNum; i++) {
             pCodeLocationSearch2(i, data);
@@ -161,18 +160,21 @@ public class ExamOnAdress {
 
         str = response.getBody().asString();
 
-            if (str.contains(data)){
-                given()
-                        .pathParam("pc", i)
-                        .when()
-                        .get(url)
-                        .prettyPrint()
-                        /*.then()
-                        .body("country", equalTo("De"))
-                        .body("places[0].state", equalTo("İzmir"))*/
-                ;
-            }
+        if (str.contains(data)) {
+            given()
+                    .pathParam("pc", i)
+                    .when()
+                    .get(url)
+                    .then()
+                    .body("country", equalTo("Turkey"))
+                    .body("places[0].state", equalTo("İzmir"))
+                    .body("country", equalTo("Turkey"));
+
+            given().pathParam("pc", i)
+                    .when().get(url).prettyPrint();
 
         }
+
     }
+}
 
