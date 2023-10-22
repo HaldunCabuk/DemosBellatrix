@@ -61,8 +61,8 @@
       <recent name="stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamOnAdress.autoCheckAssertdeneme">
-    <configuration name="ExamOnAdress.ExamOnAdressForAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ExamOnAdress.autoFindAdress">
+    <configuration name="ExamOnAdress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -72,24 +72,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
       <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
-      <option name="METHOD_NAME" value="ExamOnAdressForAssert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamOnAdress._autoCheckAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
-      <option name="METHOD_NAME" value="_autoCheckAssert" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamOnAdress.autoCheckAssertdeneme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamOnAdress.autoCheckAssert1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +103,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
       <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
-      <option name="METHOD_NAME" value="autoCheckAssertdeneme" />
+      <option name="METHOD_NAME" value="autoCheckAssert1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamOnAdress.forLoop_pathParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamOnAdress.autoCheckAssert2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -136,7 +119,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
       <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
-      <option name="METHOD_NAME" value="forLoop_pathParams" />
+      <option name="METHOD_NAME" value="autoCheckAssert2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamOnAdress.autoFindAdress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="autoFindAdress" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExamOnAdress.autoCheckAssertdeneme" />
-        <item itemvalue="JUnit.ExamOnAdress._autoCheckAssert" />
+        <item itemvalue="JUnit.ExamOnAdress.autoFindAdress" />
+        <item itemvalue="JUnit.ExamOnAdress.autoCheckAssert2" />
+        <item itemvalue="JUnit.ExamOnAdress.autoCheckAssert1" />
+        <item itemvalue="JUnit.ExamOnAdress" />
         <item itemvalue="JUnit.ExamOnAdress.autoCheckAssert" />
-        <item itemvalue="JUnit.ExamOnAdress.forLoop_pathParams" />
-        <item itemvalue="JUnit.ExamOnAdress.ExamOnAdressForAssert" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697893534484</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="21.10.2023 ExamOnHipopotam_usRestAssured">
+      <created>1697898048900</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1697898048901</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

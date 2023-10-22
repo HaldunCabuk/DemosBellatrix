@@ -35,7 +35,7 @@ public class ExamOnAdress {
 
     @Test
     public void extract() {
-        String url = "https://api.zippopotam.us/TR/01000";
+        String url = "https://api.zippopotam.us/TR/35380";
 
         Response response = get(url)
                 .then().extract().response();
@@ -43,7 +43,8 @@ public class ExamOnAdress {
 
         Headers headers = get(url)
                 .then().extract().headers();
-        System.out.println(headers);
+        System.out.println("HeadersHighlight: = " + headers);
+        ;
 
 
     }
@@ -104,111 +105,74 @@ public class ExamOnAdress {
     }
 
 
-    /*public void forLoop(){
+    @Test
+    public void getAdressWithData() {
 
         int num = 35380;
         int lNum = 35399;
+        String data = "places";
 
-        for (int i = num; i < lNum ; i+=5) {
-            autoCheckAssert (i);
+        for (int i = num; i < lNum; i++) {
+            pCodeLocationSearch1(i, data);
         }
-    }*/
-
-    @Test
-    public void autoCheckAssert() {
-
-
-
-        int num = 35380;
-        int lNum = 35383;
-
-        String url = "https://api.zippopotam.us/TR/{pc}";
-
-        for (int i = num; i < lNum; i ++) {
-            Response response = given().pathParam("pc",i).when().get(url);
-
-            if (response.body() != null){
-            given()
-                    .pathParam("pc", i)
-                    .when()
-                    .get(url)
-                    .prettyPrint();
-        }
-        }
-
-
-
-        /*do {
-            given()
-                    .pathParam("pc", number)
-                    .when()
-                    .get(url)
-                    .prettyPrint();
-
-        }while (given().get(url).then().body(containsString("places")) != "" )*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        ;
     }
-    @Test
-    public void autoCheckAssertdeneme() {
 
 
-
-        int num = 35380;
-        int lNum = 35383;
-        int count = 0;
-
+    public void pCodeLocationSearch1(int i, String data) {
         String url = "https://api.zippopotam.us/TR/{pc}";
+        String str = "";
 
-        for (int i = num; i < lNum; i ++) {
-            Response response = given().pathParam("pc",i).when().get(url)
-                    .then().extract().response();
-            String str = response.body().prettyPrint().toString();
+        Response response = given().pathParam("pc", i).when().get(url)
+                .then().extract().response();
 
+        str = response.getBody().asString();
 
-            if (str != ""){
+        if (str.contains(data)) {
+
                 given()
                         .pathParam("pc", i)
                         .when()
                         .get(url)
                         .prettyPrint();
-                count++;
-            }
-        }
-        System.out.println(count);
 
-}
+        }
+    }
+
+
     @Test
-    public void _autoCheckAssert() {
+    public void autoCheckAssert2() {
+
+        int num = 35380;
+        int lNum = 35399;
+        String data = "Efeler Mah.";
+
+        for (int i = num; i < lNum; i++) {
+            pCodeLocationSearch2(i, data);
+        }
+    }
 
 
+    public void pCodeLocationSearch2(int i, String data) {
+        String url = "https://api.zippopotam.us/TR/{pc}";
+        String str = "";
 
-
-
-        String url = "https://api.zippopotam.us/TR/35381";
-        Response response = get(url)
+        Response response = given().pathParam("pc", i).when().get(url)
                 .then().extract().response();
-        response.prettyPrint();
 
+        str = response.getBody().asString();
 
-
+            if (str.contains(data)){
+                given()
+                        .pathParam("pc", i)
+                        .when()
+                        .get(url)
+                        .prettyPrint()
+                        /*.then()
+                        .body("country", equalTo("De"))
+                        .body("places[0].state", equalTo("İzmir"))*/
+                ;
+            }
 
         }
-}
+    }
+
