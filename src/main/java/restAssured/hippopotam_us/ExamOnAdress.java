@@ -143,7 +143,7 @@ public class ExamOnAdress {
 
         int num = 35380;
         int lNum = 35399;
-        String data = "places";
+        String data = "Yildizlar Mah";
 
         for (int i = num; i < lNum; i++) {
             pCodeLocationSearch2(i, data);
@@ -166,9 +166,14 @@ public class ExamOnAdress {
                     .when()
                     .get(url)
                     .then()
+                    .statusCode(200)
+                    .body("places.state", hasItems("İzmir"))
+                    .body("$", hasKey("post code"))
                     .body("country", equalTo("Turkey"))
                     .body("places[0].state", equalTo("İzmir"))
-                    .body("country", equalTo("Turkey"));
+
+
+            ;
 
             given().pathParam("pc", i)
                     .when().get(url).prettyPrint();

@@ -144,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ExamOnAdress.AdressAssert" />
+        <item itemvalue="JUnit.ExamOnAdress" />
         <item itemvalue="JUnit.ExamOnAdress.getAdressWithData" />
         <item itemvalue="JUnit.ExamOnAdress.ExamOnAdressForAssert" />
         <item itemvalue="JUnit.ExamOnAdress.autoCheckAssert2" />
-        <item itemvalue="JUnit.ExamOnAdress" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697973112732</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="22.10.2023 ExamOnHipopotam_usRestAssured">
+      <created>1697975622321</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1697975622321</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
