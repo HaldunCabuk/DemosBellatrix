@@ -50,8 +50,9 @@ public class _03JsonPath {
         Response response = get("https://reqres.in/api/users/1");
 
         String email = response.then()
-                .log().body()
+               // .log().body()
                 .extract().jsonPath().get("data.email");
+        System.out.println(email);
 
         int id = response.then()
                 .extract().jsonPath().get("data.id");
@@ -93,6 +94,7 @@ public class _03JsonPath {
 
         String name = response
                 .jsonPath().get("data.find{it.first_name=='Charles'}.email");
+                    // tek bir isim cagirdigimiz icin data.find dedik
 
         System.out.println(name);
 
@@ -106,7 +108,7 @@ public class _03JsonPath {
                 .jsonPath().get("data.find{it.first_name=='Charles'}").toString();
         System.out.println("-----------------");
 
-        Map<String,?> map = response.jsonPath()
+        Map<String,?> map = response.jsonPath()// ? degisken bir deger anlamindadir
                 .getMap("data.find{it.first_name=='Charles'}");
 
         System.out.println(map);
@@ -135,6 +137,7 @@ public class _03JsonPath {
     @Test
     public void test11_JsonPath_ObjectsToMaps() {
         Response response = get("https://jsonplaceholder.typicode.com/comments");
+        //response.prettyPrint();
         ArrayList<Map<String,?>> maps = response.jsonPath().get("");// yada "$" rootu gosterdik
         System.out.println(maps.size());
 
