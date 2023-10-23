@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="22.10.2023 ExamOnHipopotam_usRestAssured">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/_03JsonPath.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="23.10.2023 RestAssured">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/_03JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/_03JsonPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,39 +61,8 @@
       <recent name="stepdefs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit._03JsonPath.test7_JsonPath">
-    <configuration name="ExamOnAdress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExamOnAdress.AdressAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
-      <option name="METHOD_NAME" value="AdressAssert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_03JsonPath.test5_JsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit._03JsonPath.test11_JsonPath_ObjectsToMaps">
+    <configuration name="_03JsonPath.test10_JsonPath_toMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +72,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssured" />
       <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
-      <option name="METHOD_NAME" value="test5_JsonPath" />
+      <option name="METHOD_NAME" value="test10_JsonPath_toMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_03JsonPath.test6_JsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="_03JsonPath.test11_JsonPath_ObjectsToMaps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -119,7 +88,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="restAssured" />
       <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
-      <option name="METHOD_NAME" value="test6_JsonPath" />
+      <option name="METHOD_NAME" value="test11_JsonPath_ObjectsToMaps" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,13 +110,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_03JsonPath.test9_JsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured" />
+      <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
+      <option name="METHOD_NAME" value="test9_JsonPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_03JsonPath.testOdev_JsonPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured" />
+      <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
+      <option name="METHOD_NAME" value="testOdev_JsonPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit._03JsonPath.test11_JsonPath_ObjectsToMaps" />
+        <item itemvalue="JUnit._03JsonPath.test10_JsonPath_toMap" />
+        <item itemvalue="JUnit._03JsonPath.test9_JsonPath" />
+        <item itemvalue="JUnit._03JsonPath.testOdev_JsonPath" />
         <item itemvalue="JUnit._03JsonPath.test7_JsonPath" />
-        <item itemvalue="JUnit._03JsonPath.test5_JsonPath" />
-        <item itemvalue="JUnit._03JsonPath.test6_JsonPath" />
-        <item itemvalue="JUnit.ExamOnAdress.AdressAssert" />
-        <item itemvalue="JUnit.ExamOnAdress" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698077248654</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="23.10.2023 RestAssured">
+      <created>1698083592960</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1698083592960</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -317,6 +325,7 @@
     <MESSAGE value="20.10.2023 RestAssured" />
     <MESSAGE value="21.10.2023 ExamOnHipopotam_usRestAssured" />
     <MESSAGE value="22.10.2023 ExamOnHipopotam_usRestAssured" />
-    <option name="LAST_COMMIT_MESSAGE" value="22.10.2023 ExamOnHipopotam_usRestAssured" />
+    <MESSAGE value="23.10.2023 RestAssured" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.10.2023 RestAssured" />
   </component>
 </project>

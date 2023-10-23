@@ -3,7 +3,9 @@ package restAssured;
 import io.restassured.response.Response;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import static io.restassured.RestAssured.get;
 import static org.hamcrest.Matchers.hasSize;
@@ -82,8 +84,61 @@ public class _03JsonPath {
             System.out.println(s);
         }
 
+}
 
+    @Test
+    public void testOdev_JsonPath() {
 
+        Response response = get("https://reqres.in/api/users");
+
+        String name = response
+                .jsonPath().get("data.find{it.first_name=='Charles'}.email");
+
+        System.out.println(name);
 
 }
+    @Test
+    public void test9_JsonPath_toMap() {
+
+        Response response = get("https://reqres.in/api/users");
+
+        String name = response
+                .jsonPath().get("data.find{it.first_name=='Charles'}").toString();
+        System.out.println("-----------------");
+
+        Map<String,?> map = response.jsonPath()
+                .getMap("data.find{it.first_name=='Charles'}");
+
+        System.out.println(map);
+        map.forEach((k,v)->System.out.println(k+ " : " + v));
+}
+    @Test
+    public void test10_JsonPath_toMap() {
+
+        Response response = get("https://reqres.in/api/users");
+
+        String name = response
+                .jsonPath().get("data").toString();
+        System.out.println("------------");
+
+       ArrayList<Map<String,?>> maps = response.jsonPath()
+                .get("data");
+
+       for (Map<String,?> map : maps){
+           map.forEach((k,v)-> System.out.println(k+ " : " + v));
+           System.out.println("------");
+       }
+
+
+
+    }
+    @Test
+    public void test11_JsonPath_ObjectsToMaps() {
+        Response response = get("https://jsonplaceholder.typicode.com/comments");
+        ArrayList<Map<String,?>> maps = response.jsonPath().get("");// yada "$" rootu gosterdik
+        System.out.println(maps.size());
+
+}
+
+
 }
