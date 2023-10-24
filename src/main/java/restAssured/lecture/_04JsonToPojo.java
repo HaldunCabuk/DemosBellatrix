@@ -1,4 +1,4 @@
-package restAssured;
+package restAssured.lecture;
 
 import lombok.Data;
 import org.junit.Test;

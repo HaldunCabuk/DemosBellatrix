@@ -1,4 +1,4 @@
-package restAssured;
+package restAssured.lecture;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

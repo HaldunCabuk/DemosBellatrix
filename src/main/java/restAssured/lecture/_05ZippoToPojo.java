@@ -1,4 +1,4 @@
-package restAssured;
+package restAssured.lecture;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import org.junit.Test;

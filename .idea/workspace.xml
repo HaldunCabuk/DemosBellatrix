@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="23.10.2023 RestAssured">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/_04JsonToPojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/_05ZippoToPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task8/task8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task9/Task9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task9/task9" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/_03JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/_03JsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/_03JsonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_03JsonPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/_04JsonToPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_04JsonToPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/_05ZippoToPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_05ZippoToPojo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +68,11 @@
   </component>
   <component name="RunManager" selected="JUnit._03JsonPath.test12_getDistinctEmailExtensions">
     <configuration name="_03JsonPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._03JsonPath" />
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssured.*" />
+          <option name="PATTERN" value="restAssured.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +84,12 @@
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssured.*" />
+          <option name="PATTERN" value="restAssured.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
+      <option name="PACKAGE_NAME" value="restAssured.lecture" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._03JsonPath" />
       <option name="METHOD_NAME" value="test10_JsonPath_toMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -98,12 +100,12 @@
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssured.*" />
+          <option name="PATTERN" value="restAssured.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
+      <option name="PACKAGE_NAME" value="restAssured.lecture" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._03JsonPath" />
       <option name="METHOD_NAME" value="test11_JsonPath_ObjectsToMaps" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -114,12 +116,12 @@
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssured.*" />
+          <option name="PATTERN" value="restAssured.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
+      <option name="PACKAGE_NAME" value="restAssured.lecture" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._03JsonPath" />
       <option name="METHOD_NAME" value="test12_getDistinctEmailExtensions" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -130,12 +132,12 @@
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="restAssured.*" />
+          <option name="PATTERN" value="restAssured.lecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="restAssured" />
-      <option name="MAIN_CLASS_NAME" value="restAssured._03JsonPath" />
+      <option name="PACKAGE_NAME" value="restAssured.lecture" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._03JsonPath" />
       <option name="METHOD_NAME" value="test9_JsonPath_toMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -329,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698086985951</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="23.10.2023 RestAssured">
+      <created>1698163578863</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1698163578863</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
