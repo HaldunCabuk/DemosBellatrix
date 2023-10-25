@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="23.10.2023 RestAssured">
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_06JsonSchema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_08GoRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_08GoRest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/Tasks.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="25.10.2023 RestAssured">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DemoQaTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_04JsonToPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_04JsonToPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_05ZippoToPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/lecture/_05ZippoToPojo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task8/task8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task9/Task9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task9/Task9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,94 +64,72 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tasks.task5">
-    <configuration name="Tasks.task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DemoQaTests">
+    <configuration name="DemoQaTests (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.sampleQuiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.sampleQuiz" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.sampleQuiz.Tasks" />
-      <option name="METHOD_NAME" value="task1" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tasks.task2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoQaTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.sampleQuiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.sampleQuiz" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.sampleQuiz.Tasks" />
-      <option name="METHOD_NAME" value="task2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tasks.task3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoQaTests.apiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.sampleQuiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.sampleQuiz" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.sampleQuiz.Tasks" />
-      <option name="METHOD_NAME" value="task3" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
+      <option name="METHOD_NAME" value="apiTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tasks.task4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoQaTests.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.sampleQuiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.sampleQuiz" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.sampleQuiz.Tasks" />
-      <option name="METHOD_NAME" value="task4" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tasks.task5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DemoQaTests.search" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.sampleQuiz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.sampleQuiz" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.sampleQuiz.Tasks" />
-      <option name="METHOD_NAME" value="task5" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
+      <option name="METHOD_NAME" value="search" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tasks.task5" />
-        <item itemvalue="JUnit.Tasks.task4" />
-        <item itemvalue="JUnit.Tasks.task3" />
-        <item itemvalue="JUnit.Tasks.task2" />
-        <item itemvalue="JUnit.Tasks.task1" />
+        <item itemvalue="TestNG.DemoQaTests" />
+        <item itemvalue="TestNG.DemoQaTests.apiTest" />
+        <item itemvalue="TestNG.DemoQaTests.login" />
+        <item itemvalue="TestNG.DemoQaTests.search" />
+        <item itemvalue="TestNG.DemoQaTests (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698174739713</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="25.10.2023 RestAssured">
+      <created>1698255037908</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1698255037908</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -365,6 +342,7 @@
     <MESSAGE value="21.10.2023 ExamOnHipopotam_usRestAssured" />
     <MESSAGE value="22.10.2023 ExamOnHipopotam_usRestAssured" />
     <MESSAGE value="23.10.2023 RestAssured" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.10.2023 RestAssured" />
+    <MESSAGE value="25.10.2023 RestAssured" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.10.2023 RestAssured" />
   </component>
 </project>
