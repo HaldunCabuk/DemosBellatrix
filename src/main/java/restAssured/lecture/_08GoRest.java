@@ -69,7 +69,7 @@ curl -i -H "Accept:application/json"
     @Test(priority = 2)
     public void createUser() {
 
-        String body = "{\"name\":\"Tenali Ramakrishna\", \n" +
+        String body = "{\"name\":\"Haldun Cabuk\", \n" +
                 " \"gender\":\"male\", \n" +
                 " \"email\":\"" + randomEmail() + "\",\n" +
                 "  \"status\":\"active\"}";
@@ -136,7 +136,7 @@ curl -i
 -H "Authorization: Bearer ACCESS-TOKEN"
 -XDELETE "https://gorest.co.in/public/v2/users/628347"*/
 
-    @Test(priority = 4, dependsOnMethods = "createUser")
+    @Test(priority = 4)
     public void deleteUser() {
 
 
@@ -146,8 +146,6 @@ curl -i
                 .delete("/users/" + id)
                 .then()
                 .statusCode(oneOf(200, 201, 204))
-
-
 
         ;
 

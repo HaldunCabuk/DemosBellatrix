@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="25.10.2023 RestAssured">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DemoQaTests.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="25.10.2023 RestAssuredWithUi">
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/models/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/models/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DemoQaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DemoQaTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/Tasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/Tasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task9/Task9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/sampleQuiz/task9/task9" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,34 +71,50 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DemoQaTests">
-    <configuration name="DemoQaTests (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG._08GoRest.getAllUsers">
+    <configuration name="Tasks.test8_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.sampleQuiz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.sampleQuiz" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.sampleQuiz.Tasks" />
+      <option name="METHOD_NAME" value="test8_1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQaTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tasks.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.sampleQuiz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.sampleQuiz" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.sampleQuiz.Tasks" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQaTests.apiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_08GoRest.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
-      <option name="METHOD_NAME" value="apiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.lecture" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._08GoRest" />
+      <option name="METHOD_NAME" value="createUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -99,11 +122,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQaTests.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_08GoRest.deleteUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
-      <option name="METHOD_NAME" value="login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.lecture" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._08GoRest" />
+      <option name="METHOD_NAME" value="deleteUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,11 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoQaTests.search" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_08GoRest.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DemoQaTests" />
-      <option name="METHOD_NAME" value="search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.lecture" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._08GoRest" />
+      <option name="METHOD_NAME" value="getAllUsers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DemoQaTests" />
-        <item itemvalue="TestNG.DemoQaTests.apiTest" />
-        <item itemvalue="TestNG.DemoQaTests.login" />
-        <item itemvalue="TestNG.DemoQaTests.search" />
-        <item itemvalue="TestNG.DemoQaTests (2)" />
+        <item itemvalue="TestNG._08GoRest.getAllUsers" />
+        <item itemvalue="TestNG._08GoRest.deleteUser" />
+        <item itemvalue="TestNG._08GoRest.createUser" />
+        <item itemvalue="JUnit.Tasks.test9" />
+        <item itemvalue="JUnit.Tasks.test8_1" />
       </list>
     </recent_temporary>
   </component>
@@ -331,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698255037908</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="25.10.2023 RestAssuredWithUi">
+      <created>1698266126578</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1698266126578</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -343,6 +385,7 @@
     <MESSAGE value="22.10.2023 ExamOnHipopotam_usRestAssured" />
     <MESSAGE value="23.10.2023 RestAssured" />
     <MESSAGE value="25.10.2023 RestAssured" />
-    <option name="LAST_COMMIT_MESSAGE" value="25.10.2023 RestAssured" />
+    <MESSAGE value="25.10.2023 RestAssuredWithUi" />
+    <option name="LAST_COMMIT_MESSAGE" value="25.10.2023 RestAssuredWithUi" />
   </component>
 </project>

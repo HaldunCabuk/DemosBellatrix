@@ -103,7 +103,7 @@ public class DemoQaTests {
     public String getTitle(String isbn){
         String title = get("https://demoqa.com/BookStore/v1/Books")
                 .then().log().body()
-                .extract().jsonPath().get("books.find{it.isbn=='" + isbn + "'}.title");
+                .extract().jsonPath().get("books.find{it.isbn =='" + isbn + "'}.title");
 
         //System.out.println(title);
 
@@ -125,10 +125,10 @@ public class DemoQaTests {
 
     }
 
-    public void zoom(double value) {
+  /*  public void zoom(double value) {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("document.body.style.zoom='" + value + "'");
-    }
+    }*/
 
     public By getBookLink(String text) {
         return By.xpath("//a[text()=\"" + text + "\"]");
