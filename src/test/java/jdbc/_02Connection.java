@@ -22,6 +22,10 @@ public class _02Connection {
 
     @BeforeTest
     public void beforeTest() throws SQLException {
+
+
+
+
         String url = "jdbc:mysql://127.0.0.1:3306/guidersoft";
         String username = "jdbc";
         String pwd = "jdbc123456";

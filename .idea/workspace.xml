@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="25.10.2023 RestAssuredWithUi">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_01Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_02Connection.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="01.11.2023 JDBC">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/TestConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testconfig.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,21 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Haldun35/IdeaProjects/DemosBellatrix/src/main/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Haldun35/IdeaProjects/DemosBellatrix",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix" />
       <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix\src\main\java" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -80,7 +81,7 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._02Connection.test1">
+  <component name="RunManager" selected="TestNG._Test03.getCountryPopulation">
     <configuration name="_01Connection.test_Connection1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
@@ -110,24 +111,6 @@
       <option name="PACKAGE_NAME" value="jdbc" />
       <option name="MAIN_CLASS_NAME" value="jdbc._02Connection" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_08GoRest.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.lecture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.lecture" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._08GoRest" />
-      <option name="METHOD_NAME" value="createUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -171,13 +154,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Test03.getCountryPopulation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._Test03" />
+      <option name="METHOD_NAME" value="getCountryPopulation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG._Test03.getCountryPopulation" />
         <item itemvalue="TestNG._02Connection.test1" />
         <item itemvalue="TestNG._01Connection.test_Connection1" />
         <item itemvalue="TestNG._08GoRest.getAllUsers" />
         <item itemvalue="TestNG._08GoRest.deleteUser" />
-        <item itemvalue="TestNG._08GoRest.createUser" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698326288212</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="01.11.2023 JDBC">
+      <created>1698875770090</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1698875770090</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -406,6 +414,7 @@
     <MESSAGE value="23.10.2023 RestAssured" />
     <MESSAGE value="25.10.2023 RestAssured" />
     <MESSAGE value="25.10.2023 RestAssuredWithUi" />
-    <option name="LAST_COMMIT_MESSAGE" value="25.10.2023 RestAssuredWithUi" />
+    <MESSAGE value="01.11.2023 JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="01.11.2023 JDBC" />
   </component>
 </project>
