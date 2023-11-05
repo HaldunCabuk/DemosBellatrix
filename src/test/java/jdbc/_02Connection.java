@@ -8,10 +8,12 @@ import java.sql.*;
 
 public class _02Connection {
     /*
-    @BeforeTest -> connection ve statement definition
-    @Test       -> personel tablosunda ulkeler nufuslarini listeleyin
-                   tablo sonuna da genel toplami ekle
-    @AfterTest  -> statement connection close
+        @BeforeTest -> connection ve statement definition
+
+        @Test       -> personel tablosunda ulke nüfuslarini listeleyin
+                       tablo sonuna da genel toplami yazdirin
+
+        @AfterTest  -> statement connection close
      */
 
 
@@ -21,27 +23,26 @@ public class _02Connection {
 
 
     @BeforeTest
-    public void beforeTest() throws SQLException {
+    public void setup() throws SQLException {
 
-
-
+        //TestConfig config = TestConfigReader.instance().getConfig();
+        //config.getDatabase().getUrl();
 
         String url = "jdbc:mysql://127.0.0.1:3306/guidersoft";
         String username = "jdbc";
-        String pwd = "jdbc123456";
-        conn = DriverManager.getConnection(url, username, pwd);
+        String password = "jdbc123456";
 
+        conn = DriverManager.getConnection(url, username, password );
         stmnt = conn.createStatement();
-
-
-
     }
 
     @Test
-    public void test1() throws SQLException {
-    String sql = "select country, count(*) as nufus from personel group by country " +
-            " union " +
-            " select 'Toplam', count(*) from personel";
+    public void getCountryPopulation() throws SQLException {
+        String sql = "SELECT country, COUNT(*) AS nufus FROM personel GROUP BY country";
+        sql += " UNION";
+        sql += " SELECT 'Toplam', COUNT(*) FROM personel";
+
+        System.out.println(sql);
 
         rs = stmnt.executeQuery(sql);
 
@@ -53,7 +54,7 @@ public class _02Connection {
 
 
     @AfterTest
-    public void afterTest() throws SQLException {
+    public void tearDown() throws SQLException {
         stmnt.close();
         conn.close();
     }

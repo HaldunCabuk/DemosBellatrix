@@ -4,20 +4,20 @@ import org.testng.annotations.Test;
 
 import java.sql.SQLException;
 
-public class _Test03 extends BaseConnection {
+public class _03Test extends BaseConnection {
     @Test
     public void getCountryPopulation() throws SQLException {
+        String sql = "SELECT country, COUNT(*) AS nufus FROM personel GROUP BY country";
+        sql += " UNION";
+        sql += " SELECT 'Toplam', COUNT(*) FROM personel";
 
-        String sql = "select country, count(*) as nufus from personel group by country " +
-                " union " +
-                " select 'Toplam', count(*) from personel";
+        System.out.println(sql);
 
         rs = stmnt.executeQuery(sql);
 
-        while (rs.next()) {
+        while (rs.next()){
             System.out.printf("%-40s%d\n", rs.getString(1), rs.getInt(2));
-
-
         }
+
     }
 }

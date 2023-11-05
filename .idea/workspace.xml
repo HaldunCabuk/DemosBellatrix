@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="02.11.2023 JDBC">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_04MetaData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_05Cursor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_06GetTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_07Queries.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="03.11.2023 JDBC">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAdressTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/BaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/BaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_01Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_01Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_02Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_02Connection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_04MetaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_04MetaData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_05Cursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_05Cursor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_06GetTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_06GetTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_07Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_07Queries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_03Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +62,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Haldun35/IdeaProjects/DemosBellatrix",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Haldun35/IdeaProjects/DemosBellatrix&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix" />
@@ -83,35 +87,31 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._07Queries.deleteUpdate">
-    <configuration name="_07Queries" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateAdressTable.getTable">
+    <configuration name="CreateAdressTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_07Queries.createDeleteUpdate2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAdressTable.createTableAndDatas" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
-      <option name="METHOD_NAME" value="createDeleteUpdate2" />
+      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
+      <option name="METHOD_NAME" value="createTableAndDatas" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,17 +119,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_07Queries.createTable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAdressTable.deleteIfExist" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
-      <option name="METHOD_NAME" value="createTable" />
+      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
+      <option name="METHOD_NAME" value="deleteIfExist" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,17 +137,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_07Queries.createTable1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAdressTable.getTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
-      <option name="METHOD_NAME" value="createTable1" />
+      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
+      <option name="METHOD_NAME" value="getTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -155,17 +155,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_07Queries.deleteUpdate" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateAdressTable.update" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.*" />
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
-      <option name="METHOD_NAME" value="deleteUpdate" />
+      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
+      <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG._07Queries.deleteUpdate" />
-        <item itemvalue="TestNG._07Queries.createTable" />
-        <item itemvalue="TestNG._07Queries.createDeleteUpdate2" />
-        <item itemvalue="TestNG._07Queries.createTable1" />
-        <item itemvalue="TestNG._07Queries" />
+        <item itemvalue="TestNG.CreateAdressTable.getTable" />
+        <item itemvalue="TestNG.CreateAdressTable.update" />
+        <item itemvalue="TestNG.CreateAdressTable.createTableAndDatas" />
+        <item itemvalue="TestNG.CreateAdressTable.deleteIfExist" />
+        <item itemvalue="Application.CreateAdressTable" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698950194498</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="03.11.2023 JDBC">
+      <created>1699184670522</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1699184670522</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -424,6 +431,7 @@
     <MESSAGE value="25.10.2023 RestAssuredWithUi" />
     <MESSAGE value="01.11.2023 JDBC" />
     <MESSAGE value="02.11.2023 JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="02.11.2023 JDBC" />
+    <MESSAGE value="03.11.2023 JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.11.2023 JDBC" />
   </component>
 </project>
