@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="01.11.2023 JDBC">
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/TestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/TestConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testconfig.yml" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="02.11.2023 JDBC">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_04MetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_05Cursor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_06GetTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_07Queries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/BaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/BaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,8 +83,8 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG._Test03.getCountryPopulation">
-    <configuration name="_01Connection.test_Connection1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG._07Queries.deleteUpdate">
+    <configuration name="_07Queries" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -91,16 +93,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._01Connection" />
-      <option name="METHOD_NAME" value="test_Connection1" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02Connection.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_07Queries.createDeleteUpdate2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +110,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._02Connection" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
+      <option name="METHOD_NAME" value="createDeleteUpdate2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,43 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_08GoRest.deleteUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.lecture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.lecture" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._08GoRest" />
-      <option name="METHOD_NAME" value="deleteUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_08GoRest.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="restAssured.lecture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="restAssured.lecture" />
-      <option name="MAIN_CLASS_NAME" value="restAssured.lecture._08GoRest" />
-      <option name="METHOD_NAME" value="getAllUsers" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_Test03.getCountryPopulation" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_07Queries.createTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +128,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbc" />
-      <option name="MAIN_CLASS_NAME" value="jdbc._Test03" />
-      <option name="METHOD_NAME" value="getCountryPopulation" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
+      <option name="METHOD_NAME" value="createTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_07Queries.createTable1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
+      <option name="METHOD_NAME" value="createTable1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_07Queries.deleteUpdate" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._07Queries" />
+      <option name="METHOD_NAME" value="deleteUpdate" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG._Test03.getCountryPopulation" />
-        <item itemvalue="TestNG._02Connection.test1" />
-        <item itemvalue="TestNG._01Connection.test_Connection1" />
-        <item itemvalue="TestNG._08GoRest.getAllUsers" />
-        <item itemvalue="TestNG._08GoRest.deleteUser" />
+        <item itemvalue="TestNG._07Queries.deleteUpdate" />
+        <item itemvalue="TestNG._07Queries.createTable" />
+        <item itemvalue="TestNG._07Queries.createDeleteUpdate2" />
+        <item itemvalue="TestNG._07Queries.createTable1" />
+        <item itemvalue="TestNG._07Queries" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698875770090</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="02.11.2023 JDBC">
+      <created>1698950194498</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1698950194498</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -415,6 +423,7 @@
     <MESSAGE value="25.10.2023 RestAssured" />
     <MESSAGE value="25.10.2023 RestAssuredWithUi" />
     <MESSAGE value="01.11.2023 JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.11.2023 JDBC" />
+    <MESSAGE value="02.11.2023 JDBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.11.2023 JDBC" />
   </component>
 </project>
