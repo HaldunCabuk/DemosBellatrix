@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="03.11.2023 JDBC">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAdressTable.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="05.11.2023 JDBC_odev">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Deneme.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_01Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_01Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_02Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_02Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_04MetaData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_04MetaData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_05Cursor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_05Cursor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_06GetTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_06GetTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_07Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_07Queries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/_Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/_03Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,20 +79,7 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateAdressTable.getTable">
-    <configuration name="CreateAdressTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Odev2">
     <configuration name="CreateAdressTable.createTableAndDatas" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
@@ -173,13 +152,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Odev2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="odev2.Odev2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Odev2" />
         <item itemvalue="TestNG.CreateAdressTable.getTable" />
         <item itemvalue="TestNG.CreateAdressTable.update" />
         <item itemvalue="TestNG.CreateAdressTable.createTableAndDatas" />
         <item itemvalue="TestNG.CreateAdressTable.deleteIfExist" />
-        <item itemvalue="Application.CreateAdressTable" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699184670522</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="05.11.2023 JDBC_odev">
+      <created>1699197121497</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1699197121497</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -432,6 +429,7 @@
     <MESSAGE value="01.11.2023 JDBC" />
     <MESSAGE value="02.11.2023 JDBC" />
     <MESSAGE value="03.11.2023 JDBC" />
-    <option name="LAST_COMMIT_MESSAGE" value="03.11.2023 JDBC" />
+    <MESSAGE value="05.11.2023 JDBC_odev" />
+    <option name="LAST_COMMIT_MESSAGE" value="05.11.2023 JDBC_odev" />
   </component>
 </project>
