@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="05.11.2023 JDBC_odev">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Deneme.java" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="odev2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/BaseClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Opencart_odev05112023.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAdressTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAddressTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +84,9 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Odev2">
-    <configuration name="CreateAdressTable.createTableAndDatas" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Opencart_odev05112023.loginAndAddAddress">
+    <configuration name="CreateAddressTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAddressTable" />
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -88,17 +94,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
-      <option name="METHOD_NAME" value="createTableAndDatas" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAdressTable.deleteIfExist" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Opencart_odev05112023.getTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -107,25 +107,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
-      <option name="METHOD_NAME" value="deleteIfExist" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAdressTable.getTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
       <option name="METHOD_NAME" value="getTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -134,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateAdressTable.update" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Opencart_odev05112023.login" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
@@ -143,8 +125,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAdressTable" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
+      <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,11 +134,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Odev2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Opencart_odev05112023.loginAndAddAddress" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="odev2.Odev2" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
+      <option name="METHOD_NAME" value="loginAndAddAddress" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Opencart_odev05112023.openAndReg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
+      <option name="METHOD_NAME" value="openAndReg" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -165,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Odev2" />
-        <item itemvalue="TestNG.CreateAdressTable.getTable" />
-        <item itemvalue="TestNG.CreateAdressTable.update" />
-        <item itemvalue="TestNG.CreateAdressTable.createTableAndDatas" />
-        <item itemvalue="TestNG.CreateAdressTable.deleteIfExist" />
+        <item itemvalue="TestNG.Opencart_odev05112023.loginAndAddAddress" />
+        <item itemvalue="Application.CreateAddressTable" />
+        <item itemvalue="TestNG.Opencart_odev05112023.getTable" />
+        <item itemvalue="TestNG.Opencart_odev05112023.login" />
+        <item itemvalue="TestNG.Opencart_odev05112023.openAndReg" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699197121497</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="odev2">
+      <created>1699267610783</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1699267610783</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -430,6 +444,7 @@
     <MESSAGE value="02.11.2023 JDBC" />
     <MESSAGE value="03.11.2023 JDBC" />
     <MESSAGE value="05.11.2023 JDBC_odev" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.11.2023 JDBC_odev" />
+    <MESSAGE value="odev2" />
+    <option name="LAST_COMMIT_MESSAGE" value="odev2" />
   </component>
 </project>

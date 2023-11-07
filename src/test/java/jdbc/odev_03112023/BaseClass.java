@@ -6,9 +6,7 @@ import org.testng.annotations.Test;
 
 import java.sql.*;
 
-public class ConnectBaseClass {
-
-
+public class BaseClass {
     Connection conn;
     Statement stmnt;
     ResultSet rs;
@@ -16,20 +14,21 @@ public class ConnectBaseClass {
     @BeforeTest
     public void beforetest() throws SQLException {
 
-        String url = "jdbc:mysql://127.0.0.1:3306/aaa?useSSL=false&serverTimezone=UTC"; //127.0.0.1 yerine localhost yazilabilir
-        String username = "HC";
-        String pwd = "admin";
+        String url = "jdbc:mysql://opencart.abstracta.us/index.php?route=account/address"; //127.0.0.1 yerine localhost yazilabilir
 
+        String username = "a1b2c3@az.de";
+        String pwd = "admin";
         conn = DriverManager.getConnection(url, username, pwd);
 
         stmnt = conn.createStatement();
 
     }
 
+
     @AfterTest
-    public void close() throws SQLException {
-    conn.close();
-    stmnt.close();
+    public void afterTest() throws SQLException {
+        conn.close();
+        stmnt.close();
 
     }
 }

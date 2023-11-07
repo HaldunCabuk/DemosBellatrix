@@ -25,21 +25,21 @@ import java.sql.SQLException;
 5.    "adress" tablosuna country="Turkey", state="Adana", diger verileri de random degerler alarak
     INSERT INTO adress(first_name, ...) VALUES('',...) komutu ile bir kayit girin.
 6.    "adress" tablosundaki state degerini "Ankara" olarak güncelleyin
-7.    https://opencart.abstracta.us/ sitesinde
-    a. yeni bir kullanici register edin
-    b. login olun
-    c. Adress Book'a gidin
-    d. Veritabanina eklediginiz kaydi SELECT komutu ile okuyun
-    e. Aldiginiz bu veriler ile "Adress Book" kaydi yapin.
-    f. Kayit yapildigindan emin olun.
 
-8.    Yukaridaki islemleri yaptigi sürece,
-    a. proje modeli
-    b. BaseClass, methods
-    c. TestFramework (JUnit, TestNG, Cucumber)
-    d. ve ihtiyac hissettiginiz sizin inisiyatifinizdedir.
+
  */
-public class CreateAdressTable extends ConnectBaseClass {
+public class CreateAddressTable extends ConnectBase {
+
+    static String firstName = "";
+    static String lastName;
+    static String company;
+    static String address1;
+    static String address2;
+    static String city;
+    static String postCode;
+    static String country;
+    static String state;
+
 
     @Test
     public void createTableAndDatas() throws SQLException {
@@ -60,19 +60,20 @@ public class CreateAdressTable extends ConnectBaseClass {
 
         stmnt.execute(newTableSql);
 
-        String firstName = RandomStringUtils.randomAlphabetic(1).toUpperCase()
-                + RandomStringUtils.randomAlphabetic(3,8).toLowerCase();
-        String lastName = RandomStringUtils.randomAlphabetic(3,8).toUpperCase();
-        String company = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3,8).toLowerCase();
-        String adress1 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3,8).toLowerCase();
-        String adress2 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3,8).toLowerCase();
-        String city = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3,8).toLowerCase();
-        String postCode = "0" + RandomStringUtils.randomNumeric(4);
-        String country = "Turkey";
-        String state = "Adana";
+        firstName = RandomStringUtils.randomAlphabetic(1).toUpperCase()
+                + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        lastName = RandomStringUtils.randomAlphabetic(3, 8).toUpperCase();
+        company = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        address1 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        address2 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        city = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        postCode = "0" + RandomStringUtils.randomNumeric(4);
+        country = "Turkey";
+        state = "Adana";
 
-        String sqlInsert= "INSERT INTO address (first_name, last_name, company, address1, address2, city, postCode, country, state) " +
-                "VALUES ('" + firstName + "', '" + lastName + "', '" + company + "', '" + adress1 + "', '" + adress2 + "', '" + city + "', '" + postCode + "', '" + country + "', '" + state + "')";
+        String sqlInsert = "INSERT INTO address (first_name, last_name, company, address1, address2, city, postCode, country, state) " +
+                "VALUES ('" + firstName + "', '" + lastName + "', '" + company + "', '" + address1 + "', " +
+                "'" + address2 + "', '" + city + "', '" + postCode + "', '" + country + "', '" + state + "')";
         stmnt.execute(sqlInsert);
 
     }
@@ -89,6 +90,21 @@ public class CreateAdressTable extends ConnectBaseClass {
     public void getTable() throws SQLException {
         rs = stmnt.executeQuery("select id,first_name, last_name, company, address1, address2, city, postCode, country, state from address");
 
+        while (rs.next()) {
+            int id = rs.getInt(1);
+            String first_name = rs.getString(2);
+            String last_name = rs.getString(3);
+            String company = rs.getString(4);
+            String address1 = rs.getString("address1");
+            String address2 = rs.getString(6);
+            String city = rs.getString(7);
+            String postCode = rs.getString("postCode");
+            String country = rs.getString(9);
+            String state = rs.getString(10);
+
+            System.out.printf("%-5d%-15s%-15s%-15s%-3s\n", id, first_name, last_name, company, address1, address2, city, postCode, country, state);
+        }
+
     }
 
 
@@ -97,5 +113,6 @@ public class CreateAdressTable extends ConnectBaseClass {
         String deleteTable = "drop table address";
         stmnt.execute(deleteTable);
     }
+
 
 }
