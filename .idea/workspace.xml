@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="odev2">
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="03.11.2023 odev JdbcWithCucumberAtezgider">
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_08PreparedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_09jdbcRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_10SqLite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAddressTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAddressTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Opencart_odev05112023.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Opencart_odev05112023.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/odevJdbcWithCucumber/utils/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevJdbcWithCucumber/utils/Select.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,21 +60,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Haldun35/IdeaProjects/DemosBellatrix&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Haldun35/IdeaProjects/DemosBellatrix/src/test/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix\src\test\resources" />
       <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix" />
       <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix\src\main\java" />
     </key>
@@ -81,31 +86,18 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Opencart_odev05112023.loginAndAddAddress">
-    <configuration name="CreateAddressTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAddressTable" />
+  <component name="RunManager" selected="TestNG._10SqLite.getDatas">
+    <configuration name="_09jdbcRest.createTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateAddressTable.getTable" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAddressTable" />
-      <option name="METHOD_NAME" value="getTable" />
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._09jdbcRest" />
+      <option name="METHOD_NAME" value="createTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,17 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opencart_odev05112023.getTable" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_09jdbcRest.getFromGorest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
-      <option name="METHOD_NAME" value="getTable" />
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._09jdbcRest" />
+      <option name="METHOD_NAME" value="getFromGorest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -131,17 +123,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opencart_odev05112023.login" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_10SqLite.createTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
-      <option name="METHOD_NAME" value="login" />
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._10SqLite" />
+      <option name="METHOD_NAME" value="createTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,17 +141,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opencart_odev05112023.loginAndAddAddress" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="_10SqLite.getDatas" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
-      <option name="METHOD_NAME" value="loginAndAddAddress" />
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._10SqLite" />
+      <option name="METHOD_NAME" value="getDatas" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_10SqLite.insertAUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc" />
+      <option name="MAIN_CLASS_NAME" value="jdbc._10SqLite" />
+      <option name="METHOD_NAME" value="insertAUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -169,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Opencart_odev05112023.loginAndAddAddress" />
-        <item itemvalue="TestNG.CreateAddressTable.getTable" />
-        <item itemvalue="Application.CreateAddressTable" />
-        <item itemvalue="TestNG.Opencart_odev05112023.getTable" />
-        <item itemvalue="TestNG.Opencart_odev05112023.login" />
+        <item itemvalue="TestNG._10SqLite.getDatas" />
+        <item itemvalue="TestNG._10SqLite.insertAUser" />
+        <item itemvalue="TestNG._10SqLite.createTable" />
+        <item itemvalue="TestNG._09jdbcRest.getFromGorest" />
+        <item itemvalue="TestNG._09jdbcRest.createTable" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699366917606</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="03.11.2023 odev2">
+      <created>1699371833386</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1699371833386</updated>
+    </task>
+    <task id="LOCAL-00037" summary="03.11.2023 odev JdbcWithCucumberAtezgider">
+      <created>1699377903293</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1699377903293</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -449,6 +473,8 @@
     <MESSAGE value="03.11.2023 JDBC" />
     <MESSAGE value="05.11.2023 JDBC_odev" />
     <MESSAGE value="odev2" />
-    <option name="LAST_COMMIT_MESSAGE" value="odev2" />
+    <MESSAGE value="03.11.2023 odev2" />
+    <MESSAGE value="03.11.2023 odev JdbcWithCucumberAtezgider" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.11.2023 odev JdbcWithCucumberAtezgider" />
   </component>
 </project>
