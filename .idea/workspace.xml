@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="odev2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/BaseClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Opencart_odev05112023.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBaseClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAdressTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAddressTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/ConnectBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAddressTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/CreateAddressTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Opencart_odev05112023.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbc/odev_03112023/Opencart_odev05112023.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +95,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateAddressTable.getTable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbc.odev_03112023.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
+      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.CreateAddressTable" />
+      <option name="METHOD_NAME" value="getTable" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Opencart_odev05112023.getTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
@@ -152,31 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opencart_odev05112023.openAndReg" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DemosBellatrix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbc.odev_03112023.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbc.odev_03112023" />
-      <option name="MAIN_CLASS_NAME" value="jdbc.odev_03112023.Opencart_odev05112023" />
-      <option name="METHOD_NAME" value="openAndReg" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Opencart_odev05112023.loginAndAddAddress" />
+        <item itemvalue="TestNG.CreateAddressTable.getTable" />
         <item itemvalue="Application.CreateAddressTable" />
         <item itemvalue="TestNG.Opencart_odev05112023.getTable" />
         <item itemvalue="TestNG.Opencart_odev05112023.login" />
-        <item itemvalue="TestNG.Opencart_odev05112023.openAndReg" />
       </list>
     </recent_temporary>
   </component>
@@ -427,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699267610783</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="odev2">
+      <created>1699366917606</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1699366917606</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

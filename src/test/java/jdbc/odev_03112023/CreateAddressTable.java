@@ -30,16 +30,9 @@ import java.sql.SQLException;
  */
 public class CreateAddressTable extends ConnectBase {
 
-    static String firstName = "";
-    static String lastName;
-    static String company;
-    static String address1;
-    static String address2;
-    static String city;
-    static String postCode;
-    static String country;
-    static String state;
 
+    public CreateAddressTable() throws SQLException {
+    }
 
     @Test
     public void createTableAndDatas() throws SQLException {
@@ -60,16 +53,16 @@ public class CreateAddressTable extends ConnectBase {
 
         stmnt.execute(newTableSql);
 
-        firstName = RandomStringUtils.randomAlphabetic(1).toUpperCase()
+        String firstName = RandomStringUtils.randomAlphabetic(1).toUpperCase()
                 + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
-        lastName = RandomStringUtils.randomAlphabetic(3, 8).toUpperCase();
-        company = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
-        address1 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
-        address2 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
-        city = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
-        postCode = "0" + RandomStringUtils.randomNumeric(4);
-        country = "Turkey";
-        state = "Adana";
+        String lastName = RandomStringUtils.randomAlphabetic(3, 8).toUpperCase();
+        String company = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        String  address1 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        String address2 = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        String city = RandomStringUtils.randomAlphabetic(1).toUpperCase() + RandomStringUtils.randomAlphabetic(3, 8).toLowerCase();
+        String postCode = "0" + RandomStringUtils.randomNumeric(4);
+        String country = "Turkey";
+        String state = "Adana";
 
         String sqlInsert = "INSERT INTO address (first_name, last_name, company, address1, address2, city, postCode, country, state) " +
                 "VALUES ('" + firstName + "', '" + lastName + "', '" + company + "', '" + address1 + "', " +
@@ -80,7 +73,7 @@ public class CreateAddressTable extends ConnectBase {
 
     @Test
     public void update() throws SQLException {
-        String sqlUpdate = "update address set state='Ankara';";
+        String sqlUpdate = "update address set state ='Ankara';";
         stmnt.executeUpdate(sqlUpdate);
 
 
@@ -102,7 +95,7 @@ public class CreateAddressTable extends ConnectBase {
             String country = rs.getString(9);
             String state = rs.getString(10);
 
-            System.out.printf("%-5d%-15s%-15s%-15s%-3s\n", id, first_name, last_name, company, address1, address2, city, postCode, country, state);
+            System.out.printf("%-5d%-15s%-15s%-15s%-3s%-9s%-9s%-9s\n", id, first_name, last_name, company, address1, address2, city, postCode, country, state);
         }
 
     }

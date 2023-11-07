@@ -33,7 +33,10 @@ public class Opencart_odev05112023 extends CreateAddressTable{
     WebDriverWait wait;
 
     String url = "https://opencart.abstracta.us/";
-    CreateAddressTable cat;
+    ConnectBase cb = new ConnectBase();
+
+    public Opencart_odev05112023() throws SQLException {
+    }
 
 
     @BeforeTest
@@ -68,7 +71,7 @@ public class Opencart_odev05112023 extends CreateAddressTable{
     }
 
     @Test
-    public void loginAndAddAddress() throws InterruptedException {
+    public void loginAndAddAddress() throws InterruptedException, SQLException {
         driver.get(url);
         wait.until(ExpectedConditions.titleIs("Your Store"));
         click(lMyAccount);
@@ -79,45 +82,19 @@ public class Opencart_odev05112023 extends CreateAddressTable{
         click(lAddressBook);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Address Book Entries']")));
         click(lNewAddress);
-        List<List<String>> lists =
-        sendKey(lFirstNameInput, firstName);
-        sendKey(lLastNameInput, lastName);
-        sendKey(lAddress1Input, address1);
-        sendKey(lCityInput, city);
-        sendKey(lPostcodeInput, postCode);
-        //new Actions(driver).keyDown(Keys.TAB).sendKeys("tur").pause(8000).perform();
+        List<List<String>> lists = cb.getTable("select * from address");
+        sendKey(lFirstNameInput, lists.get(0).get(1));
+        sendKey(lLastNameInput, lists.get(0).get(2));
+        sendKey(lCompanyInput, lists.get(0).get(3));
+        sendKey(lAddress1Input, lists.get(0).get(4));
+        sendKey(lAddress2Input, lists.get(0).get(5));
+        sendKey(lCityInput, lists.get(0).get(6));
+        sendKey(lPostcodeInput, lists.get(0).get(7));
         select(lCountryInput, 231);
         Thread.sleep(3000);
         select(lZoneInput, 6);
         click(lSubmitButton);
     }
-
-
-
-
-    /*@Test
-    public void getTable() throws SQLException {
-
-       bc.rs = bc.stmnt.executeQuery("select First Name, Last Name, Address 1, City, Post Code, Country, Region / State from " + url);
-
-        while (bc.rs.next()) {
-            String first_name = bc.rs.getString(1);
-            String last_name =bc.rs.getString(2);
-            String address1 =bc.rs.getString(3);
-            String city = bc.rs.getString(4);
-            String postCode =bc.rs.getString(5);
-            String country =bc.rs.getString(6);
-            String state =bc.rs.getString(7);
-
-            System.out.printf("%-5d%-15s%-15s%-15s%-3s\n", first_name, last_name, address1, city, postCode, country, state);
-        }
-
-
-    }*/
-
-
-
-
 
     public void click(By locator) {
         wait.until(ExpectedConditions.elementToBeClickable(locator)).click();

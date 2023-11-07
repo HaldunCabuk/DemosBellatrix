@@ -12,6 +12,7 @@ public class Locators {
     static  By lLoginButton = By.xpath("//input[@type='submit']");
     static  By lFirstNameInput = By.cssSelector("#input-firstname");
     static By lLastNameInput = By.cssSelector("#input-lastname");
+    static By lCompanyInput = By.cssSelector("#input-company");
     static By lEmailInput = By.cssSelector("#input-email");
     static By lTelInput = By.cssSelector("#input-telephone");
     static  By lPwdInput = By.cssSelector("#input-password");
@@ -23,6 +24,7 @@ public class Locators {
     static  By lContinueButton = By.xpath("//a[text()='Continue']");
     static By lNewAddress = By.xpath("//a[text()='New Address']");
     static  By lAddress1Input = By.cssSelector("#input-address-1");
+    static  By lAddress2Input = By.cssSelector("#input-address-2");
     static By lCityInput = By.cssSelector("#input-city");
     static By lPostcodeInput = By.cssSelector("#input-postcode");
     static By lCountryInput = By.cssSelector("#input-country");
