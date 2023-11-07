@@ -48,7 +48,7 @@ public class Opencart_odev05112023 extends CreateAddressTable{
 
     @AfterTest
     public void afterTest() {
-        //driver.quit();
+        driver.quit();
     }
 
     @Test
