@@ -4,14 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="03.11.2023 odev JdbcWithCucumberAtezgider">
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_08PreparedStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_09jdbcRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jdbc/_10SqLite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data.sqlite" afterDir="false" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="07.11.2023 sqLite and preparedStatement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/odevJdbcWithCucumber/utils/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevJdbcWithCucumber/utils/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/085184a0-a29c-4c3a-bf61-ebd7aaa78398-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/12d7992b-ffbd-4cf0-ac84-fa0f68b45349-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/135410c8-1cab-4e1c-afa9-f771ab511890-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1f7e3a34-986f-40b4-aae5-1231515e0636-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2032bc6a-09f7-4d19-87ef-023b47eab62e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2a90379f-70b6-4822-bc55-b1dfcef49e33-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2aaab83d-6cb1-4733-9f1d-a8e1064776a8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/398f2f5a-7bd9-479e-82a4-5a5436276835-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3aa1f787-b84a-4fbb-991c-cb878d26fb8c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3f0aa8b3-ab01-49e5-961d-f9796e553d95-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/42ef589d-64a7-443b-a3cd-25163b9a1122-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/57b00314-f13b-4f6a-b6d5-6ad679705fa2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6b8d7a17-ce8a-4ac0-adf5-cd9f30b90c41-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/712a4eff-d14f-4172-97f1-aa890375bf3c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/723d2410-4d27-422a-9dc0-46c80aa4ab55-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/728ce8d1-d59c-4954-94dc-961187df7aff-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/81098985-6866-444f-85e7-00248beec2b7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9baed0f4-17b6-4b84-82bc-530b83098240-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a6e22955-8b37-4b77-906a-a8a0593f8b16-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a73daaa1-9eaf-4870-8f55-a866cc083cab-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a9c3c2c9-334f-4cd0-9c42-423a12ec2dc8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ae8b3590-87cb-496d-8dbe-5344c6b64747-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b535b7c3-e983-4cd9-9fac-0cd73b6b52b8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/be058b49-0d4e-488f-a2ee-7dd79abcd7c4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c255b3ac-203a-4921-a425-d65ad227bd1f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d1fc4624-3411-45d1-aa43-25e4e0576ef4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d5069124-cfb2-454e-85d6-b8f89b315656-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/de28bbb5-0c69-48d4-9940-7b9c4951bb5d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f6121037-44f4-43e0-a883-9677a38c142d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fcef66a1-4957-4f77-a82d-f41a2adb77ab-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/odevJdbcWithCucumber/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/odevJdbcWithCucumber/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +85,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Haldun35/IdeaProjects/DemosBellatrix/src/test/resources",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Haldun35/IdeaProjects/DemosBellatrix/src/test/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Haldun35\IdeaProjects\DemosBellatrix\src\test\resources" />
@@ -455,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699377903293</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="07.11.2023 sqLite and preparedStatement">
+      <created>1699394046580</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1699394046580</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -475,6 +507,7 @@
     <MESSAGE value="odev2" />
     <MESSAGE value="03.11.2023 odev2" />
     <MESSAGE value="03.11.2023 odev JdbcWithCucumberAtezgider" />
-    <option name="LAST_COMMIT_MESSAGE" value="03.11.2023 odev JdbcWithCucumberAtezgider" />
+    <MESSAGE value="07.11.2023 sqLite and preparedStatement" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.11.2023 sqLite and preparedStatement" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package odevJdbcWithCucumber.base;
 
 import odevJdbcWithCucumber.utils.Driver;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -57,6 +58,14 @@ public abstract class BaseTest {
 
     public WebElement getElement(By locator){
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+    }
+
+    public String getRandomString(int len){
+        return RandomStringUtils.randomAlphabetic(len);
+    }
+
+    public String getRandomNumber(int len){
+        return RandomStringUtils.randomNumeric(len,len);
     }
 
     public void waitForVisibility(By locator){
