@@ -14,7 +14,11 @@ import java.util.List;
 
 public class CartSteps extends BaseSteps{
 
+    @Given("user on homepage")
+    public void userOnHomepage() {
 
+        driver.get(url);
+    }
     @When("user add the product {string} to the cart")
     public void userAddTheProductToTheCart(String text) {
 

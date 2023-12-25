@@ -1,5 +1,6 @@
 package stepdefs;
 
+import driver.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -9,10 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
 public class SearchSteps extends BaseSteps{
-    @Given("user on homepage")
-    public void userOnHomepage() {
-        driver.get(url);
-    }
+
 
     @Then("homepage should be opened")
     public void homepageShouldBeOpened() {

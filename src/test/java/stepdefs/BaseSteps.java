@@ -66,6 +66,7 @@ public class BaseSteps {
         String attr = String.format(ATTRIBUTE, text);
 
         String xpath = attr;
+
         By locator = By.xpath(xpath);
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
