@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="07.11.2023 FromJdbcToUiWithAutomated">
-      <change afterPath="$PROJECT_DIR$/allure-results/0a51cbd5-a522-4948-be9a-534d936fb85b-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/6af9f558-03af-44b8-8201-ea44aa32781c-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/88216bec-281d-4512-9bef-44fcc2591c0e-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/9cfd62c4-a3ea-4da2-a0ef-f3d54e01eda6-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ae0eed9b-1fa0-405e-9216-79123c13e0ce-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c7ec9f0a-afe0-45d6-99c2-1da45932c5dc-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/c8b39357-e99c-4dab-ad4c-6a60480f4b1c-result.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/ca284a93-a66c-4c27-9eb6-a7768ba76e9d-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5a29c9a8-43b6-429a-8a50-a81cadd0c8ba-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5b446569-2fc7-4ae4-b5fc-394cdc01a694-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -477,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703495991082</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="07.11.2023 FromJdbcToUiWithAutomated">
+      <created>1704034813570</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1704034813570</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
