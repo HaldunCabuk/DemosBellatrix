@@ -30,7 +30,7 @@ public class ExamOnAdress {
         String url = "https://api.zippopotam.us/TR/01000";
 
         long delayTime = get(url).timeIn(TimeUnit.MILLISECONDS);
-        System.out.println(delayTime);
+        System.out.println("milisaniye : " + delayTime);
     }
 
     @Test

@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="07.11.2023 FromJdbcToUiWithAutomated">
-      <change afterPath="$PROJECT_DIR$/allure-results/5a29c9a8-43b6-429a-8a50-a81cadd0c8ba-container.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure-results/5b446569-2fc7-4ae4-b5fc-394cdc01a694-result.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/hippopotam_us/ExamOnAdress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/hippopotam_us/ExamOnAdress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,46 +81,7 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerSearch">
-    <configuration name="Feature: FeatureCart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureCart.feature" />
-      <option name="GLUE" value="stepdefs odevJdbcWithCucumber.stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DemosBellatrix" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: FeatureCart" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Add to Cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureCart.feature" />
-      <option name="GLUE" value="stepdefs odevJdbcWithCucumber.stepdefs" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="DemosBellatrix" />
-      <option name="NAME_FILTER" value="^Add to Cart$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add to Cart$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Add to Cart" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ExamOnAdress.hippo_pathParams">
     <configuration name="Scenario: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" />
@@ -143,17 +102,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnerCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamOnAdress.baseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DemosBellatrix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.RunnerCart" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="baseTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamOnAdress.extract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="extract" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamOnAdress.hippo_pathParams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemosBellatrix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssured.hippopotam_us.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssured.hippopotam_us" />
+      <option name="MAIN_CLASS_NAME" value="restAssured.hippopotam_us.ExamOnAdress" />
+      <option name="METHOD_NAME" value="hippo_pathParams" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExamOnAdress.hippo_pathParams" />
+        <item itemvalue="JUnit.ExamOnAdress.extract" />
+        <item itemvalue="JUnit.ExamOnAdress.baseTests" />
         <item itemvalue="JUnit.RunnerSearch" />
         <item itemvalue="Cucumber Java.Scenario: Search" />
-        <item itemvalue="Cucumber Java.Feature: FeatureCart" />
-        <item itemvalue="Cucumber Java.Scenario: Add to Cart" />
-        <item itemvalue="JUnit.RunnerCart" />
       </list>
     </recent_temporary>
   </component>
@@ -479,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704034813570</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="07.11.2023 FromJdbcToUiWithAutomated">
+      <created>1704039213422</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1704039213422</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
