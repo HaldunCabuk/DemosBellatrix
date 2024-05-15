@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="07.11.2023 FromJdbcToUiWithAutomated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/restAssured/hippopotam_us/ExamOnAdress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/restAssured/hippopotam_us/ExamOnAdress.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,16 +80,16 @@
       <recent name="restAssured.lecture" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamOnAdress.hippo_pathParams">
-    <configuration name="Scenario: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add to Cart">
+    <configuration name="Scenario: Add to Cart" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureSearch.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/FeatureCart.feature" />
       <option name="GLUE" value="stepdefs odevJdbcWithCucumber.stepdefs" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="DemosBellatrix" />
-      <option name="NAME_FILTER" value="^Search$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Search$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Search" />
+      <option name="NAME_FILTER" value="^Add to Cart$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Add to Cart$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Add to Cart" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Add to Cart" />
         <item itemvalue="JUnit.ExamOnAdress.hippo_pathParams" />
         <item itemvalue="JUnit.ExamOnAdress.extract" />
         <item itemvalue="JUnit.ExamOnAdress.baseTests" />
         <item itemvalue="JUnit.RunnerSearch" />
-        <item itemvalue="Cucumber Java.Scenario: Search" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704039213422</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="07.11.2023 FromJdbcToUiWithAutomated">
+      <created>1705943073011</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1705943073011</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
