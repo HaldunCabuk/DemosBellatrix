@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="07.11.2023 FromJdbcToUiWithAutomated" />
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="FromJdbcToUiWithAutomated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -481,14 +481,6 @@
       <option name="project" value="LOCAL" />
       <updated>1705943073011</updated>
     </task>
-    <task id="LOCAL-00046" summary="07.11.2023 FromJdbcToUiWithAutomated">
-      <option name="closed" value="true" />
-      <created>1720503932299</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1720503932299</updated>
-    </task>
     <task id="LOCAL-00047" summary="07.11.2023 FromJdbcToUiWithAutomated">
       <option name="closed" value="true" />
       <created>1720781023312</created>
@@ -529,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722853202443</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="FromJdbcToUiWithAutomated">
+      <option name="closed" value="true" />
+      <created>1723016930754</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1723016930754</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -562,6 +562,7 @@
     <MESSAGE value="03.11.2023 odev JdbcWithCucumberAtezgider" />
     <MESSAGE value="07.11.2023 sqLite and preparedStatement" />
     <MESSAGE value="07.11.2023 FromJdbcToUiWithAutomated" />
-    <option name="LAST_COMMIT_MESSAGE" value="07.11.2023 FromJdbcToUiWithAutomated" />
+    <MESSAGE value="FromJdbcToUiWithAutomated" />
+    <option name="LAST_COMMIT_MESSAGE" value="FromJdbcToUiWithAutomated" />
   </component>
 </project>
