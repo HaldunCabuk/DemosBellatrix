@@ -15,6 +15,7 @@ public class SearchSteps extends BaseSteps{
     @Then("homepage should be opened")
     public void homepageShouldBeOpened() {
         wait.until(ExpectedConditions.titleIs(title));
+
     }
 
 
