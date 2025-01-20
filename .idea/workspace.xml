@@ -479,14 +479,6 @@
       <option name="project" value="LOCAL" />
       <updated>1705943073011</updated>
     </task>
-    <task id="LOCAL-00126" summary="FromJdbcToUiWithAutomated">
-      <option name="closed" value="true" />
-      <created>1736155973608</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1736155973608</updated>
-    </task>
     <task id="LOCAL-00127" summary="FromJdbcToUiWithAutomated">
       <option name="closed" value="true" />
       <created>1736334710235</created>
@@ -527,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737128183263</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="FromJdbcToUiWithAutomated">
+      <option name="closed" value="true" />
+      <created>1737283264432</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1737283264432</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
