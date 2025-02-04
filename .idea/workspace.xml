@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="FromJdbcToUiWithAutomated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8151eb5a-b5ae-4bff-9630-a1abfdfb899e" name="Changes" comment="FromJdbcToUiWithAutomated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -481,14 +479,6 @@
       <option name="project" value="LOCAL" />
       <updated>1705943073011</updated>
     </task>
-    <task id="LOCAL-00135" summary="FromJdbcToUiWithAutomated">
-      <option name="closed" value="true" />
-      <created>1737719074189</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1737719074201</updated>
-    </task>
     <task id="LOCAL-00136" summary="FromJdbcToUiWithAutomated">
       <option name="closed" value="true" />
       <created>1737992301499</created>
@@ -529,7 +519,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738399853090</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="FromJdbcToUiWithAutomated">
+      <option name="closed" value="true" />
+      <created>1738580475530</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1738580475531</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
